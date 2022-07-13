@@ -1,8 +1,17 @@
 server:
   port: 8082
+  servlet:
+    context-path: /rest-api-admin-server
 spring:
   boot:
     admin:
       instance-auth:
         default-user-name: monitor
         default-password: monitor123
+  application:
+    name: rest-api-admin-server
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
