@@ -12,7 +12,7 @@
 
 	<groupId>com.test</groupId>
 	<artifactId>springboot-admin-server</artifactId>
-	<version>0.1.2-SNAPSHOT</version>
+	<version>0.2.2</version>
 	<name>springboot-admin-server</name>
 	<description>Demo project for Spring Boot Admin Server</description>
 
