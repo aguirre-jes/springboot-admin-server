@@ -13,8 +13,9 @@
 		  "settings":{
 		  },
 		  "extensions":[
-       "vscjava.vscode-java-pack",
-       "oracle.oracle-java",
+			 "equinusocio.vsc-material-theme-icons",
+       		 "vscjava.vscode-java-pack",
+       		 "oracle.oracle-java",
 			 "streetsidesoftware.code-spell-checker",
 			 "adpyke.codesnap",
 			 "rangav.vscode-thunder-client"
