@@ -1,7 +1,6 @@
 Configuration:
   status: debug
-
-  appenders:
+  Appenders:
     Console:
       name: LogToConsole
       PatternLayout:
@@ -18,7 +17,6 @@ Configuration:
             size: 10MB
         DefaultRollOverStrategy:
           max: 10
-
   Loggers:
     logger:
       - name: com.test
@@ -27,7 +25,6 @@ Configuration:
         AppenderRef:
           - ref: LogToConsole
           - ref: LogToRollingFile
-
     Root:
       level: error
       AppenderRef:
