@@ -1,2 +1,2 @@
 # springboot-admin-server
-Repository for SpringBoot Admin Server 3.1.4
+Repository for SpringBoot 3.3.1 Admin Server 3.3.2
